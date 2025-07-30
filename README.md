@@ -1,52 +1,83 @@
+
 # 💼 Employee Salary Predictor
 
-A simple machine learning web app built using **Streamlit** and **Linear Regression** to predict employee salaries from a CSV dataset.
+A beginner-friendly machine learning web app built with **Streamlit** and **Linear Regression** to predict employee salaries based on user input and a structured dataset.
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Overview
 
+```
 employee_salary_predictor/
-├── app.py # Streamlit web app script
-├── data.csv # Dataset file
-├── employee_salary_predictor.ipynb # Jupyter Notebook version of the project
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
----
-
-## 🚀 Features
-
-- Upload and preview dataset
-- Clean and preprocess data
-- One-hot encoding for categorical variables
-- Train a Linear Regression model
-- Predict salary from custom user input
-- Run as a web app using Streamlit
-- Reproducible training in Jupyter Notebook
+│
+├── app.py                       # 🌐 Streamlit app script
+├── employee_salary_predictor.ipynb  # 📓 Jupyter Notebook for model training & exploration
+├── data.csv                     # 📊 Dataset file
+├── requirements.txt             # 📦 Python dependencies
+└── README.md                    # 📘 Project documentation
+```
 
 ---
 
-## 📦 Installation
+## 🚀 Key Features
 
-### 1. Clone the Repository
+✅ Upload and preview your dataset  
+✅ Data cleaning and preprocessing  
+✅ One-hot encoding for categorical variables  
+✅ Linear Regression model training  
+✅ Salary prediction from custom inputs  
+✅ Web-based UI using Streamlit  
+✅ Jupyter notebook for reproducible experiments  
 
-### 2. Install Required Packages
+---
 
+## 🔧 Installation & Setup
+
+### 1. 📥 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/employee_salary_predictor.git
+cd employee_salary_predictor
+```
+
+### 2. 📦 Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-###  Run the Streamlit App
+### 3. ▶️ Run the Streamlit App
 
+```bash
 streamlit run app.py
+```
 
-### Tech Stack
--Python
--Pandas
--NumPy
--Scikit-learn
--Streamlit
--Jupyter Notebook
+The app will launch in your browser at `http://localhost:8501`.
 
-### requirements
+---
+
+## 📓 Run Jupyter Notebook (Optional)
+
+```bash
+jupyter notebook employee_salary_predictor.ipynb
+```
+
+---
+
+## 🛠 Tech Stack
+
+- 🐍 Python  
+- 🧮 NumPy, Pandas  
+- 📊 Scikit-learn  
+- 📈 LightGBM  
+- 🎨 Streamlit  
+- 🧠 Jupyter Notebook  
+
+---
+
+## 📋 Dependencies
+
+```txt
 streamlit==1.35.0
 scikit-learn==1.4.1
 pandas==2.2.2
@@ -54,5 +85,13 @@ numpy==1.26.4
 matplotlib==3.8.4
 joblib==1.4.2
 lightgbm==4.3.0
+```
 
-### done by Aarushi Jain
+---
+
+## 🙋‍♀️ Created by
+
+**Aarushi Jain**  
+_Vishwakarma University – AI & Data Science Student_  
+
+---
